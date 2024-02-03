@@ -48,3 +48,24 @@ Parsing Method: Predictive Parsing
 
 # Acceptance
 * Upon acceptance by the compiler, the compiler will output finalp2.txt. The program in finalp2.txt will then be translated into a functional C++ program (<name of program>.cpp)
+
+# Commands
+1. Compile main.cpp
+```
+g++ -std=c++17 -o out main.cpp
+```
+
+2. Run the executable
+```
+./out
+```
+
+3. Compile the translated C++ program (default is named s2023.cpp)
+```
+g++ -std=c++17 -o run s2023.cpp
+```
+
+4. Run the executable
+```
+./run
+```
